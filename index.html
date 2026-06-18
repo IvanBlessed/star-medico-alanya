@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>star-medico® Alanya — German Orthopedic Mattresses | HARIKA-M</title>
+  <meta name="description" content="Official star-medico® exclusive distributor in Alanya, Turkey. Made in Germany orthopedic oscillating mattresses. Trusted in German pharmacies since 2000. Free home consultation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; color: #1a1a1a; background: #fff; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    :root { --blue:#1a7abf; --blue-dk:#0d5a94; --blue-lt:#eef6fd; --dark:#111827; --mid:#6b7280; --light:#f3f4f6; --whatsapp:#25d366; --radius:12px; --radius-lg:20px; --shadow-sm:0 1px 3px rgba(0,0,0,.08); --shadow:0 4px 16px rgba(0,0,0,.08); --shadow-lg:0 12px 40px rgba(0,0,0,.12); --max:1140px; }
+    .container { max-width:var(--max); margin:0 auto; padding:0 1.5rem; }
+    .section-eyebrow { display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:var(--blue); background:var(--blue-lt); border-radius:30px; padding:.35rem .9rem; margin-bottom:1.1rem; }
+    .section-title { font-size:clamp(1.7rem,3.5vw,2.5rem); font-weight:800; line-height:1.2; color:var(--dark); margin-bottom:.9rem; }
+    .section-lead { font-size:1.05rem; color:var(--mid); max-width:640px; line-height:1.7; }
+    .btn-wa { display:inline-flex; align-items:center; gap:.55rem; background:var(--whatsapp); color:#fff; padding:.8rem 1.75rem; border-radius:40px; font-weight:700; font-size:.95rem; transition:background .18s,transform .15s; white-space:nowrap; }
+    .btn-wa:hover { background:#1eb855; transform:translateY(-1px); }
+    .topbar { background:var(--blue-dk); color:rgba(255,255,255,.85); font-size:.75rem; font-weight:500; padding:.5rem 1.5rem; text-align:center; }
+    .topbar span { color:#fff; font-weight:700; }
+    nav { position:sticky; top:0; z-index:200; background:rgba(255,255,255,.97); backdrop-filter:blur(12px); border-bottom:1px solid rgba(0,0,0,.07); padding:0 1.5rem; }
+    .nav-inner { max-width:var(--max); margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+    .nav-logo { font-size:1.25rem; font-weight:900; letter-spacing:-.4px; color:var(--blue); }
+    .nav-logo span { color:var(--dark); }
+    .nav-links { display:flex; align-items:center; gap:2rem; }
+    .nav-links a { font-size:.875rem; font-weight:600; color:var(--mid); transition:color .15s; }
+    .nav-links a:hover { color:var(--blue); }
+    .nav-cta { background:var(--whatsapp); color:#fff; border-radius:30px; padding:.55rem 1.25rem; font-size:.85rem; font-weight:700; }
+    .nav-cta:hover { background:#1eb855; }
+    @media(max-width:768px){ .nav-links { display:none; } }
+    .hero { background:linear-gradient(135deg,#0d5a94 0%,#1a7abf 50%,#2e8fcf 100%); color:#fff; padding:72px 1.5rem 80px; overflow:hidden; position:relative; }
+    .hero-inner { max-width:var(--max); margin:0 auto; display:grid; grid-template-columns:1fr 440px; gap:4rem; align-items:center; position:relative; z-index:1; }
+    .hero-badges { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.75rem; }
+    .hero-badge { background:rgba(255,255,255,.15); border:1px solid rgba(255,255,255,.3); border-radius:30px; padding:.3rem .85rem; font-size:.75rem; font-weight:600; }
+    .hero h1 { font-size:clamp(2rem,4.5vw,3.2rem); font-weight:900; line-height:1.12; margin-bottom:.8rem; letter-spacing:-.5px; }
+    .hero h1 em { color:#a8d8f5; font-style:normal; }
+    .hero-tagline { font-size:.9rem; font-style:italic; opacity:.75; margin-bottom:1.2rem; }
+    .hero-sub { font-size:1.05rem; opacity:.9; max-width:520px; margin-bottom:2rem; line-height:1.7; }
+    .hero-proof { display:inline-flex; align-items:center; gap:.6rem; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.2); border-radius:8px; padding:.65rem 1rem; font-size:.85rem; margin-bottom:2.25rem; }
+    .hero-proof strong { color:#a8d8f5; }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:.85rem; }
+    .hero-btn-wa { background:var(--whatsapp); color:#fff; padding:.9rem 2rem; border-radius:40px; font-weight:800; font-size:1rem; box-shadow:0 6px 20px rgba(37,211,102,.4); transition:transform .15s; }
+    .hero-btn-wa:hover { transform:translateY(-2px); }
+    .hero-btn-outline { color:#fff; border:2px solid rgba(255,255,255,.5); padding:.85rem 1.75rem; border-radius:40px; font-weight:700; font-size:1rem; }
+    .hero-btn-outline:hover { background:rgba(255,255,255,.12); }
+    .hero-right { display:flex; flex-direction:column; gap:1rem; }
+    .hero-img-wrap { border-radius:20px; overflow:hidden; box-shadow:0 12px 40px rgba(0,0,0,.3); }
+    .hero-img-wrap img { width:100%; height:280px; object-fit:cover; }
+    .hero-partner-card { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); border-radius:12px; padding:1.25rem 1.5rem; }
+    .hero-partner-card h4 { font-size:.95rem; font-weight:800; margin-bottom:.45rem; }
+    .hero-partner-card p { font-size:.83rem; opacity:.78; line-height:1.55; margin-bottom:.85rem; }
+    .hero-partner-card a { background:rgba(255,255,255,.92); color:var(--blue); border-radius:30px; padding:.45rem 1.1rem; font-size:.82rem; font-weight:700; display:inline-block; }
+    @media(max-width:900px){ .hero-inner { grid-template-columns:1fr; } .hero-right { display:none; } }
+    .trust-bar { background:var(--dark); color:rgba(255,255,255,.65); padding:.85rem 1.5rem; }
+    .trust-inner { max-width:var(--max); margin:0 auto; display:flex; flex-wrap:wrap; justify-content:center; gap:.25rem 2rem; }
+    .trust-item { display:flex; align-items:center; gap:.4rem; font-size:.75rem; font-weight:500; white-space:nowrap; }
+    .trust-item strong { color:#fff; }
+    .stats-section { padding:80px 1.5rem; background:var(--blue-lt); }
+    .stats-inner { max-width:var(--max); margin:0 auto; }
+    .stats-header { max-width:620px; margin-bottom:3rem; }
+    .stats-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1.5rem; }
+    .stat-card { background:#fff; border-radius:12px; padding:2rem 1.75rem; box-shadow:var(--shadow-sm); }
+    .stat-num { font-size:3rem; font-weight:900; color:var(--blue); line-height:1; margin-bottom:.4rem; letter-spacing:-1px; }
+    .stat-unit { font-size:.8rem; font-weight:700; color:var(--mid); text-transform:uppercase; letter-spacing:.8px; margin-bottom:.6rem; }
+    .stat-desc { font-size:.88rem; color:var(--mid); line-height:1.55; }
+    .problem-section { padding:80px 1.5rem; }
+    .problem-inner { max-width:var(--max); margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center; }
+    .problem-list,.solution-list { list-style:none; display:flex; flex-direction:column; gap:.85rem; margin:1.5rem 0; }
+    .problem-list li,.solution-list li { display:flex; align-items:flex-start; gap:.75rem; font-size:.95rem; color:var(--mid); }
+    .problem-list li::before { content:"\2717"; color:#ef4444; font-weight:900; font-size:1rem; line-height:1.5; flex-shrink:0; }
+    .solution-list li::before { content:"\2713"; color:var(--blue); font-weight:900; font-size:1rem; line-height:1.5; flex-shrink:0; }
+    .divider { width:48px; height:3px; background:var(--blue); border-radius:2px; margin-bottom:1.25rem; }
+    @media(max-width:768px){ .problem-inner { grid-template-columns:1fr; gap:2.5rem; } }
+    .quality-section { padding:80px 1.5rem; background:var(--dark); color:#fff; }
+    .quality-inner { max-width:var(--max); margin:0 auto; }
+    .quality-inner .section-eyebrow { background:rgba(255,255,255,.1); color:rgba(255,255,255,.8); }
+    .quality-inner .section-title { color:#fff; }
+    .quality-inner .section-lead { color:rgba(255,255,255,.65); }
+    .quality-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.25rem; margin-top:2.5rem; }
+    .quality-card { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1); border-radius:12px; padding:1.5rem; transition:background .2s; }
+    .quality-card:hover { background:rgba(255,255,255,.1); }
+    .quality-icon { font-size:1.75rem; margin-bottom:.75rem; }
+    .quality-card h4 { color:#fff; font-size:.95rem; font-weight:700; margin-bottom:.4rem; }
+    .quality-card p { color:rgba(255,255,255,.55); font-size:.83rem; line-height:1.55; }
+    .products-section { padding:80px 1.5rem; background:var(--light); }
+    .products-inner { max-width:var(--max); margin:0 auto; }
+    .products-header { text-align:center; margin-bottom:3rem; }
+    .products-header .section-lead { margin:0 auto; }
+    .product-block { margin-bottom:3.5rem; }
+    .product-block-title { font-size:1.1rem; font-weight:800; color:var(--dark); padding-bottom:.75rem; border-bottom:2px solid var(--blue-lt); margin-bottom:1.75rem; display:flex; align-items:center; gap:.6rem; }
+    .product-block-title span { background:var(--blue); color:#fff; border-radius:30px; padding:.2rem .75rem; font-size:.72rem; }
+    .product-card { background:#fff; border-radius:20px; box-shadow:var(--shadow); overflow:hidden; display:grid; grid-template-columns:320px 1fr; transition:box-shadow .2s; margin-bottom:1.5rem; }
+    .product-card:hover { box-shadow:var(--shadow-lg); }
+    .product-img-wrap { position:relative; background:#f8f9fa; }
+    .product-img-wrap img { width:100%; height:100%; min-height:260px; object-fit:cover; }
+    .product-badge { position:absolute; top:1rem; left:1rem; background:var(--blue); color:#fff; font-size:.7rem; font-weight:800; border-radius:20px; padding:.3rem .75rem; }
+    .product-body { padding:2rem 2.25rem; }
+    .product-category { font-size:.72rem; font-weight:700; letter-spacing:1px; text-transform:uppercase; color:var(--blue); margin-bottom:.5rem; }
+    .product-name { font-size:1.5rem; font-weight:800; color:var(--dark); margin-bottom:.4rem; }
+    .product-tagline { font-size:.9rem; color:var(--mid); margin-bottom:1.2rem; }
+    .product-features { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.5rem; }
+    .product-feature { background:var(--blue-lt); color:var(--blue); font-size:.75rem; font-weight:600; border-radius:20px; padding:.25rem .75rem; }
+    .price-table { width:100%; border-collapse:collapse; margin-bottom:1.5rem; }
+    .price-table th { background:var(--light); font-size:.72rem; font-weight:700; text-transform:uppercase; color:var(--mid); padding:.6rem .85rem; text-align:left; border-bottom:1px solid #e5e7eb; }
+    .price-table td { padding:.65rem .85rem; font-size:.88rem; color:var(--dark); border-bottom:1px solid #f3f4f6; }
+    .price-table tr:last-child td { border-bottom:none; }
+    .price-table .row-label { color:var(--mid); }
+    .price-table .price-val { font-weight:700; color:var(--blue); }
+    .product-cta { display:inline-flex; align-items:center; gap:.5rem; background:var(--whatsapp); color:#fff; border-radius:30px; padding:.65rem 1.5rem; font-weight:700; font-size:.88rem; transition:background .15s; }
+    .product-cta:hover { background:#1eb855; }
+    @media(max-width:900px){ .product-card { grid-template-columns:1fr; } .product-img-wrap img { min-height:200px; height:200px; } .product-body { padding:1.5rem; } }
+    .acc-section { padding:80px 1.5rem; }
+    .acc-inner { max-width:var(--max); margin:0 auto; }
+    .acc-header { text-align:center; margin-bottom:3rem; }
+    .acc-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:1.25rem; }
+    .acc-card { background:#fff; border-radius:12px; box-shadow:var(--shadow-sm); overflow:hidden; transition:box-shadow .18s,transform .15s; display:flex; flex-direction:column; }
+    .acc-card:hover { box-shadow:var(--shadow); transform:translateY(-3px); }
+    .acc-img-box { background:var(--light); height:140px; overflow:hidden; }
+    .acc-img-box img { width:100%; height:100%; object-fit:cover; }
+    .acc-img-fallback { width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-size:2.5rem; background:var(--blue-lt); }
+    .acc-body { padding:1rem 1.1rem; flex:1; display:flex; flex-direction:column; }
+    .acc-name { font-size:.88rem; font-weight:700; color:var(--dark); margin-bottom:.3rem; }
+    .acc-desc { font-size:.78rem; color:var(--mid); line-height:1.5; flex:1; margin-bottom:.75rem; }
+    .acc-price { font-size:.95rem; font-weight:800; color:var(--blue); margin-bottom:.75rem; }
+    .acc-btn { display:block; text-align:center; background:var(--blue-lt); color:var(--blue); border-radius:8px; padding:.45rem; font-size:.78rem; font-weight:700; transition:background .15s; }
+    .acc-btn:hover { background:var(--blue); color:#fff; }
+    .advice-section { padding:80px 1.5rem; background:var(--blue-lt); }
+    .advice-inner { max-width:var(--max); margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center; }
+    .advice-img { border-radius:20px; overflow:hidden; box-shadow:var(--shadow-lg); }
+    .advice-img img { width:100%; height:380px; object-fit:cover; }
+    .advice-steps { list-style:none; display:flex; flex-direction:column; gap:1.1rem; margin:1.75rem 0; }
+    .advice-step { display:flex; gap:.85rem; align-items:flex-start; }
+    .step-dot { width:28px; height:28px; border-radius:50%; background:var(--blue); color:#fff; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:.78rem; flex-shrink:0; }
+    .step-text { font-size:.93rem; color:var(--mid); line-height:1.6; }
+    .step-text strong { color:var(--dark); }
+    .advice-langs { background:var(--blue); color:#fff; border-radius:12px; padding:1rem 1.25rem; margin-bottom:1.5rem; }
+    .advice-langs p { font-size:.85rem; opacity:.9; margin-top:.25rem; }
+    @media(max-width:768px){ .advice-inner { grid-template-columns:1fr; } }
+    .tips-grid { max-width:var(--max); margin:3.5rem auto 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1rem; }
+    .tip-card { background:#fff; border-radius:12px; padding:1.25rem 1.5rem; border-top:3px solid var(--blue); }
+    .tip-icon { font-size:1.5rem; margin-bottom:.5rem; }
+    .tip-card h4 { font-size:.92rem; font-weight:700; color:var(--dark); margin-bottom:.35rem; }
+    .tip-card p { font-size:.82rem; color:var(--mid); line-height:1.55; }
+    .partner-section { padding:80px 1.5rem; background:var(--dark); color:#fff; }
+    .partner-inner { max-width:var(--max); margin:0 auto; }
+    .partner-header { text-align:center; margin-bottom:3rem; }
+    .partner-header .section-eyebrow { background:rgba(255,255,255,.1); color:rgba(255,255,255,.7); }
+    .partner-header .section-title { color:#fff; }
+    .partner-header .section-lead { color:rgba(255,255,255,.6); margin:0 auto 1.5rem; }
+    .partner-team { width:100%; max-width:820px; margin:0 auto 3rem; border-radius:20px; overflow:hidden; }
+    .partner-team img { width:100%; height:240px; object-fit:cover; object-position:center top; }
+    .partner-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1.25rem; margin-bottom:3rem; }
+    .partner-card { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.1); border-radius:12px; padding:1.5rem; }
+    .partner-card .pc-icon { font-size:1.75rem; margin-bottom:.75rem; }
+    .partner-card h4 { color:#fff; font-size:.95rem; font-weight:700; margin-bottom:.4rem; }
+    .partner-card p { color:rgba(255,255,255,.55); font-size:.83rem; line-height:1.55; }
+    .partner-offer { background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:1.75rem 2rem; max-width:760px; margin:0 auto 2.5rem; }
+    .partner-offer h4 { color:#fff; font-size:1rem; font-weight:700; margin-bottom:1rem; }
+    .partner-offer ul { list-style:none; display:flex; flex-direction:column; gap:.6rem; }
+    .partner-offer li { color:rgba(255,255,255,.72); font-size:.88rem; display:flex; gap:.6rem; }
+    .partner-offer li::before { content:"\2713"; color:var(--whatsapp); font-weight:800; flex-shrink:0; }
+    .partner-contact-box { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.15); border-radius:20px; padding:2rem 2.5rem; max-width:520px; margin:0 auto; text-align:center; }
+    .partner-contact-box h4 { color:#fff; font-size:1.05rem; font-weight:800; margin-bottom:1.25rem; }
+    .partner-contact-box .contact-line { color:rgba(255,255,255,.75); font-size:.93rem; margin-bottom:.5rem; }
+    .partner-contact-box .contact-line a { color:#5ba8d8; }
+    .partner-contact-box .partner-lang { color:rgba(255,255,255,.4); font-size:.8rem; margin-top:.75rem; }
+    .contact-section { padding:80px 1.5rem; background:var(--light); }
+    .contact-inner { max-width:var(--max); margin:0 auto; }
+    .contact-header { text-align:center; margin-bottom:3rem; }
+    .contact-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.5rem; margin-bottom:2.5rem; }
+    .contact-card { background:#fff; border-radius:20px; padding:2rem; text-align:center; box-shadow:var(--shadow-sm); }
+    .contact-card .cc-icon { font-size:2.25rem; margin-bottom:1rem; }
+    .contact-card h4 { font-size:1rem; font-weight:700; color:var(--dark); margin-bottom:.35rem; }
+    .contact-card p { font-size:.88rem; color:var(--mid); margin-bottom:1.25rem; }
+    .contact-card a.cc-link { display:inline-block; font-size:.88rem; font-weight:700; color:var(--blue); }
+    .cc-btn-wa { display:inline-flex; align-items:center; gap:.5rem; background:var(--whatsapp); color:#fff; border-radius:30px; padding:.6rem 1.5rem; font-weight:700; font-size:.88rem; }
+    .cc-btn-wa:hover { background:#1eb855; }
+    .cta-banner { background:var(--blue); color:#fff; border-radius:20px; padding:2.5rem; display:flex; align-items:center; justify-content:space-between; gap:2rem; flex-wrap:wrap; }
+    .cta-banner h3 { font-size:1.2rem; font-weight:800; margin-bottom:.3rem; }
+    .cta-banner p { opacity:.82; font-size:.9rem; }
+    .cta-banner-wa { background:var(--whatsapp); color:#fff; border-radius:30px; padding:.8rem 1.75rem; font-weight:800; font-size:.95rem; white-space:nowrap; }
+    footer { background:#0d1117; color:rgba(255,255,255,.45); padding:3rem 1.5rem 2rem; }
+    .footer-inner { max-width:var(--max); margin:0 auto; display:grid; grid-template-columns:1fr auto; gap:2rem; align-items:end; }
+    .footer-brand { font-size:1rem; font-weight:800; color:rgba(255,255,255,.8); margin-bottom:.4rem; }
+    .footer-sub { font-size:.78rem; line-height:1.6; }
+    .footer-links { display:flex; flex-direction:column; gap:.5rem; text-align:right; }
+    .footer-links a { font-size:.78rem; color:rgba(255,255,255,.4); }
+    .footer-links a:hover { color:rgba(255,255,255,.8); }
+    .footer-divider { border:none; border-top:1px solid rgba(255,255,255,.07); margin:2rem 0 1.25rem; }
+    .footer-bottom { font-size:.72rem; text-align:center; }
+    @media(max-width:640px){ .footer-inner { grid-template-columns:1fr; } .footer-links { text-align:left; } }
+    .float-wa { position:fixed; bottom:1.75rem; right:1.75rem; z-index:300; width:56px; height:56px; border-radius:50%; background:var(--whatsapp); color:#fff; display:flex; align-items:center; justify-content:center; font-size:1.5rem; box-shadow:0 4px 20px rgba(37,211,102,.5); transition:transform .2s; }
+    .float-wa:hover { transform:scale(1.1); }
+    .pharma-section { padding:60px 1.5rem; background:#fff; text-align:center; border-top:1px solid #e5e7eb; }
+    .pharma-icon { font-size:2.5rem; margin-bottom:1rem; }
+    .pharma-section h2 { font-size:1.4rem; font-weight:800; color:var(--dark); margin-bottom:.6rem; }
+    .pharma-section p { font-size:.92rem; color:var(--mid); max-width:540px; margin:0 auto .9rem; }
+    .pharma-badge { display:inline-flex; align-items:center; gap:.5rem; background:var(--blue-lt); color:var(--blue); border-radius:30px; padding:.45rem 1.1rem; font-size:.78rem; font-weight:700; }
+  </style>
+</head>
+<body>
+<div class="topbar"><span>🇩🇪 Made in Germany · Since 2000</span> &nbsp;·&nbsp; Exclusive distributor in Alanya: <span>HARIKA-M</span> &nbsp;·&nbsp; Free home consultation available</div>
+<nav><div class="nav-inner"><div class="nav-logo">star<span>-medico</span>®</div><div class="nav-links"><a href="#products">Products</a><a href="#sleep-advice">Sleep Advice</a><a href="#partners">Partners</a><a href="#contact">Contact</a><a href="https://wa.me/905016923956" class="nav-cta">WhatsApp Now</a></div></div></nav>
+<header class="hero"><div class="hero-inner">
+  <div class="hero-left">
+    <div class="hero-badges"><span class="hero-badge">🇩🇪 Made in Germany · Since 2000</span><span class="hero-badge">🇹🇷 Exclusive — Alanya</span><span class="hero-badge">🏥 Trusted in German Pharmacies</span></div>
+    <h1>&ldquo;How You Sleep<br>Is <em>How You Live.&rdquo;</em></h1>
+    <p class="hero-tagline">star-medico® — Ihrer Gesundheit zuliebe · For the sake of your health</p>
+    <p class="hero-sub">Germany’s leading oscillating orthopedic mattress system — now exclusively available in Alanya. Clinically designed to eliminate back pain, improve deep sleep and restore your body every night.</p>
+    <div class="hero-proof"><strong>27 years</strong> of your life will be spent in bed. Make every night count.</div>
+    <div class="hero-actions"><a href="https://wa.me/905016923956?text=Free%20consultation" class="hero-btn-wa">💬 Free Consultation</a><a href="#products" class="hero-btn-outline">See All Products ↓</a></div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2025/07/das-schlafsystem-1024x768.jpeg" alt="star-medico sleep system" onerror="this.src='https://star-medico.com/wp-content/uploads/2019/08/comfort2-e1567109847795.jpg'"></div>
+    <div class="hero-partner-card"><h4>🤝 Become a Partner in Turkey</h4><p>Sell in your shop, earn commission, or take on a regional territory. Premium German brand.</p><a href="#partners">View Partnership Details ↓</a></div>
+  </div>
+</div></header>
+<div class="trust-bar"><div class="trust-inner"><div class="trust-item"><strong>🇩🇪</strong> Made in Germany</div><div class="trust-item"><strong>🏅</strong> Since 2000 · 25 Years</div><div class="trust-item"><strong>🏥</strong> Sold in German Pharmacies</div><div class="trust-item"><strong>🏅</strong> Official Turkey Exclusive</div><div class="trust-item"><strong>🚚</strong> Delivery Across Alanya</div><div class="trust-item"><strong>🗣️</strong> EN · TR · RU</div></div></div>
+<section class="stats-section" id="about"><div class="stats-inner"><div class="stats-header"><div class="section-eyebrow">Did you know?</div><h2 class="section-title">You Will Spend 27 Years of Your Life in Bed.</h2><p class="section-lead">How you sleep determines how you feel, how you move, and how long you stay healthy.</p></div><div class="stats-grid"><div class="stat-card"><div class="stat-num">27</div><div class="stat-unit">years asleep</div><div class="stat-desc">Average time spent sleeping in a lifetime. Your mattress matters more than your car.</div></div><div class="stat-card"><div class="stat-num">40M</div><div class="stat-unit">people</div><div class="stat-desc">Affected by back and neck pain annually — the #2 reason for doctor visits worldwide.</div></div><div class="stat-card"><div class="stat-num">8h</div><div class="stat-unit">per night</div><div class="stat-desc">A wrong mattress keeps your spine misaligned for 8 hours — every single night.</div></div><div class="stat-card"><div class="stat-num">25+</div><div class="stat-unit">years proven</div><div class="stat-desc">star-medico® solving sleep problems from Schwäbisch Gmünd since 2000.</div></div></div></div></section>
+<section class="problem-section"><div class="problem-inner"><div><div class="section-eyebrow">The problem</div><h2 class="section-title">Most Mattresses Are Hurting You</h2><div class="divider"></div><p class="section-lead">The average mattress does nothing while you sleep. Your body compensates for 8 hours straight.</p><ul class="problem-list"><li>Static surface keeps your spine in one position all night</li><li>Trapped heat disrupts your sleep cycle</li><li>No support for varying body weight across zones</li><li>No active therapy — just passive lying</li><li>Back and neck pain builds up slowly over years</li></ul></div><div><div class="section-eyebrow">The solution</div><h2 class="section-title">Oscillation Technology Changes Everything</h2><div class="divider"></div><p class="section-lead">star-medico® built oscillation massage directly into the mattress — mimicking the frequency of a cat’s purr, clinically shown to relax muscles and improve circulation.</p><ul class="solution-list"><li>Gentle oscillation relaxes muscles throughout the night</li><li>Zone-specific support for shoulders, hips and lumbar</li><li>Breathable Tencel® and premium natural materials</li><li>Optional infrared heat therapy layer</li><li>Adjustable motorized base for optimal sleep position</li><li>Sold in German pharmacies — proven medical-grade quality</li></ul><a href="https://wa.me/905016923956" class="btn-wa" style="margin-top:1.5rem;">💬 Try It Free — Book Consultation</a></div></div></section>
+<section class="quality-section"><div class="quality-inner"><div class="section-eyebrow">German engineering</div><h2 class="section-title">Why star-medico® Stands Apart</h2><p class="section-lead">Made in Schwäbisch Gmünd, Germany — every product passes strict quality controls before it leaves the factory.</p><div class="quality-grid"><div class="quality-card"><div class="quality-icon">🏻</div><h4>Made in Germany</h4><p>Manufactured in Schwäbisch Gmünd since 2000. German craftsmanship at every step.</p></div><div class="quality-card"><div class="quality-icon">🏥</div><h4>Pharmacy-Grade</h4><p>Sold in German Apotheken — the strictest retail standard in Europe.</p></div><div class="quality-card"><div class="quality-icon">🔬</div><h4>Oscillation Science</h4><p>Cat-purr frequency (20–140 Hz). Proven to reduce pain and improve sleep.</p></div><div class="quality-card"><div class="quality-icon">🌿</div><h4>Premium Materials</h4><p>Tencel®, natural latex, coconut fibre and memory foam — breathable and hypoallergenic.</p></div><div class="quality-card"><div class="quality-icon">⚙️</div><h4>Motorized Systems</h4><p>Remote-controlled adjustable bases for optimal sleep angle.</p></div><div class="quality-card"><div class="quality-icon">☀️</div><h4>Infrared Therapy</h4><p>Optional infrared heat layer for targeted thermal therapy and joint recovery.</p></div></div></div></section>
+<section class="products-section" id="products"><div class="products-inner"><div class="products-header"><div class="section-eyebrow">Full catalog</div><h2 class="section-title">All star-medico® Products</h2><p class="section-lead">Exclusive Alanya pricing — contact us via WhatsApp for availability and delivery. All prices in EUR.</p></div>
+<div class="product-block"><div class="product-block-title">Mattresses <span>Core Collection</span></div>
+<div class="product-card"><div class="product-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2019/08/classic-e1566287110191.jpg" alt="Ergoflex Classic" onerror="this.style.opacity='.3'"><span class="product-badge">🇩🇪 Made in Germany</span></div><div class="product-body"><div class="product-category">Mattress — Entry Collection</div><div class="product-name">Ergoflex Classic</div><div class="product-tagline">Your foundation for healthy sleep. Oscillation massage included.</div><div class="product-features"><span class="product-feature">Oscillation Massage</span><span class="product-feature">7-Zone Support</span><span class="product-feature">Tencel® Cover</span><span class="product-feature">Hypoallergenic</span></div><table class="price-table"><tr><th>Size</th><th>H</th><th>Price</th></tr><tr><td class="row-label">90×200 cm</td><td>18cm</td><td class="price-val">€598</td></tr><tr><td class="row-label">100×200 cm</td><td>18cm</td><td class="price-val">€648</td></tr><tr><td class="row-label">120×200 cm</td><td>18cm</td><td class="price-val">€698</td></tr><tr><td class="row-label">140×200 cm</td><td>18cm</td><td class="price-val">€748</td></tr><tr><td class="row-label">160×200 cm</td><td>18cm</td><td class="price-val">€848</td></tr><tr><td class="row-label">180×200 cm</td><td>18cm</td><td class="price-val">€948</td></tr><tr><td class="row-label">200×200 cm</td><td>18cm</td><td class="price-val">€1,048</td></tr></table><a href="https://wa.me/905016923956?text=Ergoflex%20Classic" class="product-cta">💬 Ask About This Mattress</a></div></div>
+<div class="product-card"><div class="product-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2019/08/comfort2-e1567109847795.jpg" alt="Ergoflex Comfort" onerror="this.style.opacity='.3'"><span class="product-badge">⭐ Best Seller</span></div><div class="product-body"><div class="product-category">Mattress — Premium Collection</div><div class="product-name">Ergoflex Comfort</div><div class="product-tagline">Advanced multi-layer system with enhanced pressure relief and deeper oscillation.</div><div class="product-features"><span class="product-feature">Oscillation Massage</span><span class="product-feature">9-Zone Support</span><span class="product-feature">Natural Latex</span><span class="product-feature">Visco Memory Foam</span></div><table class="price-table"><tr><th>Size</th><th>H</th><th>Price</th></tr><tr><td class="row-label">90×200 cm</td><td>22cm</td><td class="price-val">€798</td></tr><tr><td class="row-label">100×200 cm</td><td>22cm</td><td class="price-val">€848</td></tr><tr><td class="row-label">120×200 cm</td><td>22cm</td><td class="price-val">€948</td></tr><tr><td class="row-label">140×200 cm</td><td>22cm</td><td class="price-val">€1,098</td></tr><tr><td class="row-label">160×200 cm</td><td>22cm</td><td class="price-val">€1,248</td></tr><tr><td class="row-label">180×200 cm</td><td>22cm</td><td class="price-val">€1,398</td></tr><tr><td class="row-label">200×200 cm</td><td>22cm</td><td class="price-val">€1,548</td></tr></table><a href="https://wa.me/905016923956?text=Ergoflex%20Comfort" class="product-cta">💬 Ask About This Mattress</a></div></div></div>
+<div class="product-block"><div class="product-block-title">Bed Bases <span>Pad Flex Ortholine</span></div>
+<div class="product-card"><div class="product-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2019/08/Betteinsatz_manuell-e1567109962821.jpg" alt="Manual base" onerror="this.style.opacity='.3'"></div><div class="product-body"><div class="product-category">Bed Base — Manual</div><div class="product-name">Pad Flex Ortholine — Manual</div><div class="product-tagline">Manually adjustable slatted base. Multiple ergonomic positions.</div><div class="product-features"><span class="product-feature">7-Zone Slats</span><span class="product-feature">Manual Adjust</span><span class="product-feature">Solid German Wood</span></div><table class="price-table"><tr><th>Size</th><th>Price</th></tr><tr><td class="row-label">90×200</td><td class="price-val">€348</td></tr><tr><td class="row-label">100×200</td><td class="price-val">€398</td></tr><tr><td class="row-label">120×200</td><td class="price-val">€448</td></tr><tr><td class="row-label">140×200</td><td class="price-val">€498</td></tr><tr><td class="row-label">160×200</td><td class="price-val">€598</td></tr><tr><td class="row-label">180×200</td><td class="price-val">€696</td></tr><tr><td class="row-label">200×200</td><td class="price-val">€796</td></tr></table><a href="https://wa.me/905016923956?text=Manual%20base" class="product-cta">💬 Ask About This Base</a></div></div>
+<div class="product-card"><div class="product-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2019/08/Betteinsatz_motorisch-e1567109957571.jpg" alt="Motorized base" onerror="this.style.opacity='.3'"><span class="product-badge">🎛️ Remote Control</span></div><div class="product-body"><div class="product-category">Bed Base — Motorized</div><div class="product-name">Pad Flex Ortholine — Motorized</div><div class="product-tagline">Whisper-quiet motor with wireless remote. Adjusts head, foot and lumbar independently.</div><div class="product-features"><span class="product-feature">Electric Motor</span><span class="product-feature">Wireless Remote</span><span class="product-feature">Zero-Gravity Mode</span><span class="product-feature">Anti-Snore</span></div><table class="price-table"><tr><th>Size</th><th>Price</th></tr><tr><td class="row-label">90×200</td><td class="price-val">€798</td></tr><tr><td class="row-label">100×200</td><td class="price-val">€898</td></tr><tr><td class="row-label">120×200</td><td class="price-val">€998</td></tr><tr><td class="row-label">140×200</td><td class="price-val">€1,198</td></tr><tr><td class="row-label">160×200</td><td class="price-val">€1,398</td></tr><tr><td class="row-label">180×200</td><td class="price-val">€1,596</td></tr><tr><td class="row-label">200×200</td><td class="price-val">€1,796</td></tr></table><a href="https://wa.me/905016923956?text=Motorized%20base" class="product-cta">💬 Ask About This Base</a></div></div></div>
+<div class="product-block"><div class="product-block-title">Complete Sleep Systems <span>Full Package</span></div>
+<div class="product-card"><div class="product-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2025/07/das-schlafsystem-1024x768.jpeg" alt="Complete system" onerror="this.style.opacity='.3'"><span class="product-badge">💎 Best Value</span></div><div class="product-body"><div class="product-category">Complete System — Mattress + Base</div><div class="product-name">The star-medico® Sleep System</div><div class="product-tagline">Mattress + motorized base + pillow + duvet — everything configured for your body.</div><div class="product-features"><span class="product-feature">Mattress</span><span class="product-feature">Motorized Base</span><span class="product-feature">Pillow</span><span class="product-feature">Duvet</span><span class="product-feature">System Discount</span></div><p style="font-size:.88rem;color:var(--mid);margin-bottom:1.25rem;">Contact us for a personalised system quote matched to your body and budget.</p><a href="https://wa.me/905016923956?text=Sleep%20system" class="product-cta">💬 Get System Price</a></div></div>
+<div class="product-card"><div class="product-img-wrap"><img src="https://star-medico.com/wp-content/uploads/2019/08/RE0L1282.jpg" alt="Therapy lounger" onerror="this.style.opacity='.3'"><span class="product-badge">🔴 Infrared Option</span></div><div class="product-body"><div class="product-category">Therapy Equipment</div><div class="product-name">Therapy &amp; Massage Lounger</div><div class="product-tagline">Professional-grade oscillation therapy lounger with optional infrared heat.</div><div class="product-features"><span class="product-feature">Oscillation Therapy</span><span class="product-feature">Optional Infrared</span><span class="product-feature">Remote Controlled</span></div><table class="price-table"><tr><th>Configuration</th><th>Price</th></tr><tr><td class="row-label">Without infrared belt</td><td class="price-val">€2,398</td></tr><tr><td class="row-label">With infrared belt</td><td class="price-val">€2,798</td></tr><tr><td class="row-label">Infrared belt only</td><td class="price-val">€400</td></tr></table><a href="https://wa.me/905016923956?text=Therapy%20lounger" class="product-cta">💬 Ask About the Lounger</a></div></div></div></div></section>
+<section class="acc-section" id="accessories"><div class="acc-inner"><div class="acc-header"><div class="section-eyebrow">Accessories</div><h2 class="section-title">Complete Your Sleep System</h2><p class="section-lead" style="margin:0 auto">All accessories made to work in harmony with star-medico® mattresses — same German quality standards.</p></div><div class="acc-grid">
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/08/Kissenstappel-1-e1567109924672.jpg" alt="Pillow Fiberfill" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>🛏️</div>'"></div><div class="acc-body"><div class="acc-name">Pillow 40×80 cm — Fiberfill</div><div class="acc-desc">Soft fiberfill. All sleeping positions.</div><div class="acc-price">€149</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/08/Kopfkissen_40x80-e1567109761352.jpg" alt="Visco Pillow" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>🛏️</div>'"></div><div class="acc-body"><div class="acc-name">Pillow 40×80 cm — Visco Foam</div><div class="acc-desc">Anatomical visco-elastic. Moulds to head and neck.</div><div class="acc-price">€179</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/08/RE0L1209-e1567109752255.jpg" alt="Pillow 80x80" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>🛏️</div>'"></div><div class="acc-body"><div class="acc-name">Pillow 80×80 cm</div><div class="acc-desc">Large format fiberfill.</div><div class="acc-price">€249</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2025/07/orthorelaxe.jpeg" alt="OrthoRelaxe" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>🦴</div>'"></div><div class="acc-body"><div class="acc-name">OrthoRelaxe Orthopedic Pillow</div><div class="acc-desc">33×66 cm. S/M, L/XL, XXL. Cervical spine support.</div><div class="acc-price">€179 / size</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/07/02_S1_Produktfotos.004.jpeg" alt="Light Duvet" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>🌬️</div>'"></div><div class="acc-body"><div class="acc-name">Light Duvet — 100g</div><div class="acc-desc">Summer weight. Tencel® blend.</div><div class="acc-price">From €439</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/07/02_S1_Produktfotos.004.jpeg" alt="All-Season Duvet" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>❄️</div>'"></div><div class="acc-body"><div class="acc-name">All-Season Duvet — 300g</div><div class="acc-desc">Year-round. Antibacterial fill.</div><div class="acc-price">From €479</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/08/ProdukteKinder-1024x694.png" alt="Children Mattress" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>👶</div>'"></div><div class="acc-body"><div class="acc-name">Children's Ergoflex Classic</div><div class="acc-desc">70×140 cm, 13 cm. Orthopedic tech for children.</div><div class="acc-price">€598</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/08/ProdukteKinder-1024x694.png" alt="Children Pillow" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>👶</div>'"></div><div class="acc-body"><div class="acc-name">Children's Pillow 40×60 cm</div><div class="acc-desc">Hypoallergenic. For children and infants.</div><div class="acc-price">€139</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><img src="https://star-medico.com/wp-content/uploads/2019/08/RE0L1348.jpg" alt="Infrared Belt" onerror="this.parentElement.innerHTML='<div class=acc-img-fallback>🔴</div>'"></div><div class="acc-body"><div class="acc-name">Infrared Massage Belt</div><div class="acc-desc">Standalone infrared therapy. Use independently or with lounger.</div><div class="acc-price">€400</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+<div class="acc-card"><div class="acc-img-box"><div class="acc-img-fallback">🪵</div></div><div class="acc-body"><div class="acc-name">Bed Legs — Height Extender</div><div class="acc-desc">+25 cm. Set of 4. Fits all Pad Flex bases.</div><div class="acc-price">€140</div><a href="https://wa.me/905016923956" class="acc-btn">Ask for Details</a></div></div>
+</div><div style="margin-top:3rem" class="cta-banner"><div><h3>Not sure which product is right for you?</h3><p>Free consultation in English, Turkish or Russian — at your home or our Alanya showroom.</p></div><a href="https://wa.me/905016923956" class="cta-banner-wa">💬 Get Free Advice</a></div></div></section>
+<div class="pharma-section"><div class="pharma-icon">🏥</div><h2>Trusted in German Pharmacies.<br>Now Available in Alanya.</h2><p>German pharmacies (Apotheken) are the most strictly regulated retail environment in Europe. star-medico® earned its place on those shelves through proven medical results.</p><span class="pharma-badge">🇩🇪 Apotheke-Certified · 🇹🇷 Exclusive Alanya Distribution · 🏅 Official Partner</span></div>
+<section class="advice-section" id="sleep-advice"><div class="container"><div style="text-align:center;margin-bottom:3rem"><div class="section-eyebrow">Free consultation</div><h2 class="section-title">Personal Sleep Advice.<br>At Your Home or Our Showroom.</h2><p class="section-lead" style="margin:0 auto">Our certified sleep advisor visits your home in Alanya, brings all products to try and finds exactly what your body needs.</p></div><div class="advice-inner"><div class="advice-img"><img src="https://star-medico.com/wp-content/uploads/2019/08/beratung_familie-1024x683.jpg" alt="Sleep consultation" onerror="this.style.opacity='.4'"></div><div><h3 class="section-title" style="font-size:1.4rem">How It Works</h3><ul class="advice-steps"><li class="advice-step"><div class="step-dot">1</div><div class="step-text"><strong>Book via WhatsApp</strong> — tell us when and where. We come to your home or invite you to our showroom.</div></li><li class="advice-step"><div class="step-dot">2</div><div class="step-text"><strong>Try everything</strong> — lie on the mattresses, feel the oscillation, test the adjustable bases.</div></li><li class="advice-step"><div class="step-dot">3</div><div class="step-text"><strong>Personal recommendation</strong> — we analyse your sleep posture, health history and lifestyle.</div></li><li class="advice-step"><div class="step-dot">4</div><div class="step-text"><strong>Zero pressure</strong> — completely free and non-binding.</div></li></ul><div class="advice-langs"><strong>Available in English · Turkish · Russian</strong><p>Serving Alanya, Mahmutlar, Oba, Kestel, Cikcilli and surroundings</p></div><a href="https://wa.me/905016923956" class="btn-wa">💬 Book Free Consultation</a></div></div><div class="tips-grid"><div class="tip-card"><div class="tip-icon">😴</div><h4>7–9 Hours Per Night</h4><p>Adults need 7–9 hours for optimal brain and body recovery.</p></div><div class="tip-card"><div class="tip-icon">🌡️</div><h4>18–20°C is Ideal</h4><p>Bedroom temperature directly affects deep-sleep quality.</p></div><div class="tip-card"><div class="tip-icon">🦴</div><h4>Spine Alignment</h4><p>A wrong mattress keeps your spine misaligned for 8 hours every night.</p></div><div class="tip-card"><div class="tip-icon">🔄</div><h4>Oscillation Therapy</h4><p>Cat-purr frequency vibration releases muscle tension while you sleep.</p></div></div></div></section>
+<section class="partner-section" id="partners"><div class="partner-inner"><div class="partner-header"><div class="section-eyebrow">Business opportunity</div><h2 class="section-title">Become a star-medico® Partner in Turkey</h2><p class="section-lead">We are looking for motivated partners — shop owners, wellness professionals and independent sales consultants — to grow the star-medico® brand across Turkey.</p></div><div class="partner-team"><img src="https://star-medico.com/wp-content/uploads/2019/08/FamilienfotoBlau-09-e1566816816782.png" alt="star-medico team" onerror="this.style.opacity='.3'"></div><div class="partner-cards"><div class="partner-card"><div class="pc-icon">🏪</div><h4>Shop Reseller</h4><p>Buy wholesale and sell in your own store. Furniture, wellness, health shops welcome.</p></div><div class="partner-card"><div class="pc-icon">💼</div><h4>Commission Agent</h4><p>No inventory needed. Refer clients, earn commission on every sale.</p></div><div class="partner-card"><div class="pc-icon">🏨</div><h4>Hotel &amp; Spa Supply</h4><p>Equip boutique hotels, wellness centres or clinics at trade pricing.</p></div><div class="partner-card"><div class="pc-icon">🌍</div><h4>Regional Distributor</h4><p>Take on a city or region. Exclusive territory rights available.</p></div></div><div class="partner-offer"><h4>✅ What We Offer Partners</h4><ul><li>German-certified orthopedic products with strong premium market appeal</li><li>Full product training and marketing materials in Turkish &amp; English</li><li>Demonstration units available for your showroom or events</li><li>Competitive wholesale pricing with significant margin potential</li><li>Ongoing personal support from our certified sleep consultant</li></ul></div><div class="partner-contact-box"><h4>Contact Mila — Alanya Regional Manager</h4><p class="contact-line">📱 <a href="https://wa.me/905016923956">WhatsApp: +90 (501) 692 39 56</a></p><p class="contact-line">📧 <a href="mailto:harika.26m@gmail.com">harika.26m@gmail.com</a></p><p class="partner-lang">Available in English · Turkish · Russian</p><a href="https://wa.me/905016923956" class="btn-wa" style="margin-top:1.5rem">💬 Discuss Partnership</a></div></div></section>
+<section class="contact-section" id="contact"><div class="contact-inner"><div class="contact-header"><div class="section-eyebrow">Contact us</div><h2 class="section-title">Ready to Sleep Better?<br>Let’s Talk — No Pressure.</h2><p class="section-lead">Free consultation in English, Turkish or Russian. We’ll visit your home and find exactly what’s right for you.</p></div><div class="contact-cards"><div class="contact-card"><div class="cc-icon">💬</div><h4>WhatsApp</h4><p>Fastest response. Message us any time — English, Turkish or Russian.</p><a href="https://wa.me/905016923956" class="cc-btn-wa">WhatsApp Now</a></div><div class="contact-card"><div class="cc-icon">📞</div><h4>Phone Call</h4><p>Call us directly (9:00–19:00).</p><a href="tel:+905016923956" class="cc-link">+90 (501) 692 39 56</a></div><div class="contact-card"><div class="cc-icon">📧</div><h4>Email</h4><p>For inquiries and partnership proposals.</p><a href="mailto:harika.26m@gmail.com" class="cc-link">harika.26m@gmail.com</a></div></div><div class="cta-banner"><div><h3>Book a Free Home Consultation</h3><p>We bring all products to you — completely free, no obligation.</p></div><a href="https://wa.me/905016923956" class="cta-banner-wa">💬 Book on WhatsApp</a></div></div></section>
+<footer><div class="footer-inner"><div><div class="footer-brand">star-medico® Alanya — HARIKA-M</div><div class="footer-sub">Official exclusive distributor of star-medico® in Alanya, Turkey.<br>Made in Germany since 2000 · Trusted in German Pharmacies · EN · TR · RU</div></div><div class="footer-links"><a href="#products">Products</a><a href="#sleep-advice">Sleep Advice</a><a href="#partners">Become a Partner</a><a href="#contact">Contact</a><a href="mailto:harika.26m@gmail.com">harika.26m@gmail.com</a></div></div><hr class="footer-divider"><div class="footer-bottom">© 2025 HARIKA-M · star-medico® is a registered trademark of Neumann-Star GmbH, Schwäbisch Gmünd, Germany.</div></footer>
+<a href="https://wa.me/905016923956" class="float-wa" title="Chat on WhatsApp">💬</a>
+</body></html>
