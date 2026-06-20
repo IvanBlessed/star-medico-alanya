@@ -139,8 +139,11 @@
     .nav-cta:hover { background: #1eb855; }
     .nav-cta::before { content: "💬 "; }
     @media(max-width:768px){
+      nav { padding: 0 1rem; }
+      .nav-inner { height: 52px; }
       .nav-links { display: none; }
-      .nav-badge { display: block; }
+      .nav-logo { font-size: 1rem; white-space: nowrap; }
+      .nav-badge { display: none; }
     }
 
     /* ── HERO ── */
@@ -188,6 +191,7 @@
       font-size: 1.05rem; opacity: .9;
       max-width: 520px; margin-bottom: 2rem; line-height: 1.7;
     }
+    @media(max-width:768px){ .hero-sub { font-size: .95rem; line-height: 1.6; } }
     .hero-proof {
       display: inline-flex; align-items: center; gap: .6rem;
       background: rgba(255,255,255,.12);
@@ -601,14 +605,15 @@
 
     /* ── FLOATING WA BUTTON ── */
     .float-wa {
-      position: fixed; bottom: 1.75rem; right: 1.75rem; z-index: 300;
-      width: 56px; height: 56px; border-radius: 50%;
+      position: fixed; bottom: 5.5rem; right: 1.25rem; z-index: 300;
+      width: 52px; height: 52px; border-radius: 50%;
       background: var(--whatsapp); color: #fff;
       display: flex; align-items: center; justify-content: center;
-      font-size: 1.5rem; box-shadow: 0 4px 20px rgba(37,211,102,.5);
+      font-size: 1.4rem; box-shadow: 0 4px 20px rgba(37,211,102,.5);
       transition: transform .2s, box-shadow .2s;
     }
     .float-wa:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,.6); }
+    @media(min-width:769px){ .float-wa { bottom: 1.75rem; right: 1.75rem; width: 56px; height: 56px; font-size: 1.5rem; } }
 
     /* ── PHARMACY CALLOUT ── */
     .pharma-section {
