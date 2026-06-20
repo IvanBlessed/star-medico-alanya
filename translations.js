@@ -242,7 +242,7 @@ function setLang(l) {
   if(nl[1]) nl[1].textContent = t.navAdvice;
   if(nl[2]) nl[2].textContent = t.navPartners;
   if(nl[3]) nl[3].textContent = t.navContact;
-  var navCtas = document.querySelectorAll('.nav-cta'); navCtas.forEach(function(e){e.textContent=''; e.innerHTML='💬 '+t.navWa;});
+  var navCtas = document.querySelectorAll('.nav-cta'); navCtas.forEach(function(e){e.textContent=''; e.innerHTML=t.navWa;});
   // Lang buttons active
   document.querySelectorAll('.lang-btn').forEach(function(b){ b.classList.toggle('active', b.textContent===l.toUpperCase()); });
   // Hero
