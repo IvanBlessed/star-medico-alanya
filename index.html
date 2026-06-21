@@ -352,16 +352,18 @@
       background: #fff; border-radius: var(--radius-lg);
       box-shadow: var(--shadow);
       overflow: hidden;
-      display: grid; grid-template-columns: 320px 1fr;
+      display: grid; grid-template-columns: 380px 1fr;
       transition: box-shadow .2s;
       margin-bottom: 1.5rem;
     }
     .product-card:hover { box-shadow: var(--shadow-lg); }
-    .product-img-wrap { position: relative; background: #f8f9fa; }
+    .product-img-wrap { position: relative; background: #f0f1f3; overflow: hidden; cursor: zoom-in; }
     .product-img-wrap img {
-      width: 100%; height: 100%; min-height: 260px;
+      width: 100%; height: 100%; min-height: 320px;
       object-fit: cover;
+      transition: transform .4s ease;
     }
+    .product-img-wrap:hover img { transform: scale(1.06); }
     .product-badge {
       position: absolute; top: 1rem; left: 1rem;
       background: var(--blue); color: #fff;
@@ -407,7 +409,7 @@
 
     @media(max-width:900px){
       .product-card { grid-template-columns: 1fr; }
-      .product-img-wrap img { min-height: 200px; height: 200px; }
+      .product-img-wrap img { min-height: 260px; height: 260px; }
       .product-body { padding: 1.5rem; }
     }
 
@@ -648,6 +650,18 @@
       #nav-cta-mobile .cta-text { display: inline; }
       #nav-cta-mobile::before { content: ""; }
     }
+
+
+    /* ── LIGHTBOX ── */
+    .lightbox { display:none; position:fixed; inset:0; z-index:1000;
+      background:rgba(0,0,0,.88); align-items:center; justify-content:center; }
+    .lightbox.open { display:flex; }
+    .lightbox img { max-width:90vw; max-height:90vh; object-fit:contain;
+      box-shadow:0 8px 60px rgba(0,0,0,.6); }
+    .lightbox-close { position:absolute; top:1.25rem; right:1.5rem;
+      color:#fff; font-size:2rem; cursor:pointer; font-weight:300;
+      line-height:1; background:none; border:none; opacity:.8; }
+    .lightbox-close:hover { opacity:1; }
 
   </style>
 </head>
@@ -1288,6 +1302,25 @@
 
 <!-- FLOATING WHATSAPP -->
 <a href="https://wa.me/905016923956?text=Hello%2C%20I%20am%20interested%20in%20star-medico%20products" class="float-wa" title="WhatsApp us">💬</a>
+
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="this.classList.remove('open')">
+  <button class="lightbox-close" onclick="document.getElementById('lightbox').classList.remove('open')">&#x2715;</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+<script>
+document.querySelectorAll('.product-img-wrap').forEach(function(wrap){
+  wrap.addEventListener('click', function(){
+    var src = this.querySelector('img').src;
+    document.getElementById('lightbox-img').src = src;
+    document.getElementById('lightbox').classList.add('open');
+  });
+});
+document.addEventListener('keydown', function(e){
+  if(e.key==='Escape') document.getElementById('lightbox').classList.remove('open');
+});
+</script>
 
 <script src="translations.js"></script>
 
